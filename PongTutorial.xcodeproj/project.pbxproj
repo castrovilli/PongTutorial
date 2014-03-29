@@ -21,6 +21,15 @@
 		81F2640918E6054600429F66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81F263EB18E6054600429F66 /* UIKit.framework */; };
 		81F2641118E6054600429F66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81F2640F18E6054600429F66 /* InfoPlist.strings */; };
 		81F2641318E6054600429F66 /* PongTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F2641218E6054600429F66 /* PongTutorialTests.m */; };
+		81F2642318E605C300429F66 /* menu03.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2641C18E605C300429F66 /* menu03.png */; };
+		81F2642418E605C300429F66 /* Ball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81F2641D18E605C300429F66 /* Ball.jpg */; };
+		81F2642518E605C300429F66 /* menu05.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2641E18E605C300429F66 /* menu05.png */; };
+		81F2642618E605C300429F66 /* menu01.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2641F18E605C300429F66 /* menu01.png */; };
+		81F2642718E605C300429F66 /* GameBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2642018E605C300429F66 /* GameBackGround.png */; };
+		81F2642818E605C300429F66 /* menu02.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2642118E605C300429F66 /* menu02.png */; };
+		81F2642918E605C300429F66 /* menu04.png in Resources */ = {isa = PBXBuildFile; fileRef = 81F2642218E605C300429F66 /* menu04.png */; };
+		81F2642B18E605E500429F66 /* Player.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 81F2642A18E605E500429F66 /* Player.jpg */; };
+		81F2642E18E609CD00429F66 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F2642D18E609CD00429F66 /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,16 @@
 		81F2640E18E6054600429F66 /* PongTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PongTutorialTests-Info.plist"; sourceTree = "<group>"; };
 		81F2641018E6054600429F66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81F2641218E6054600429F66 /* PongTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PongTutorialTests.m; sourceTree = "<group>"; };
+		81F2641C18E605C300429F66 /* menu03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu03.png; sourceTree = "<group>"; };
+		81F2641D18E605C300429F66 /* Ball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ball.jpg; sourceTree = "<group>"; };
+		81F2641E18E605C300429F66 /* menu05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu05.png; sourceTree = "<group>"; };
+		81F2641F18E605C300429F66 /* menu01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu01.png; sourceTree = "<group>"; };
+		81F2642018E605C300429F66 /* GameBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBackGround.png; sourceTree = "<group>"; };
+		81F2642118E605C300429F66 /* menu02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu02.png; sourceTree = "<group>"; };
+		81F2642218E605C300429F66 /* menu04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu04.png; sourceTree = "<group>"; };
+		81F2642A18E605E500429F66 /* Player.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Player.jpg; sourceTree = "<group>"; };
+		81F2642C18E609CD00429F66 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		81F2642D18E609CD00429F66 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +136,8 @@
 				81F263F918E6054600429F66 /* Main.storyboard */,
 				81F263FC18E6054600429F66 /* ViewController.h */,
 				81F263FD18E6054600429F66 /* ViewController.m */,
+				81F2642C18E609CD00429F66 /* Game.h */,
+				81F2642D18E609CD00429F66 /* Game.m */,
 				81F263FF18E6054600429F66 /* Images.xcassets */,
 				81F263EE18E6054600429F66 /* Supporting Files */,
 			);
@@ -126,6 +147,14 @@
 		81F263EE18E6054600429F66 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				81F2642A18E605E500429F66 /* Player.jpg */,
+				81F2641C18E605C300429F66 /* menu03.png */,
+				81F2641D18E605C300429F66 /* Ball.jpg */,
+				81F2641E18E605C300429F66 /* menu05.png */,
+				81F2641F18E605C300429F66 /* menu01.png */,
+				81F2642018E605C300429F66 /* GameBackGround.png */,
+				81F2642118E605C300429F66 /* menu02.png */,
+				81F2642218E605C300429F66 /* menu04.png */,
 				81F263EF18E6054600429F66 /* PongTutorial-Info.plist */,
 				81F263F018E6054600429F66 /* InfoPlist.strings */,
 				81F263F318E6054600429F66 /* main.m */,
@@ -228,9 +257,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81F2642818E605C300429F66 /* menu02.png in Resources */,
 				81F2640018E6054600429F66 /* Images.xcassets in Resources */,
+				81F2642B18E605E500429F66 /* Player.jpg in Resources */,
+				81F2642418E605C300429F66 /* Ball.jpg in Resources */,
+				81F2642618E605C300429F66 /* menu01.png in Resources */,
+				81F2642318E605C300429F66 /* menu03.png in Resources */,
 				81F263F218E6054600429F66 /* InfoPlist.strings in Resources */,
+				81F2642918E605C300429F66 /* menu04.png in Resources */,
 				81F263FB18E6054600429F66 /* Main.storyboard in Resources */,
+				81F2642718E605C300429F66 /* GameBackGround.png in Resources */,
+				81F2642518E605C300429F66 /* menu05.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +289,7 @@
 				81F263FE18E6054600429F66 /* ViewController.m in Sources */,
 				81F263F818E6054600429F66 /* AppDelegate.m in Sources */,
 				81F263F418E6054600429F66 /* main.m in Sources */,
+				81F2642E18E609CD00429F66 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
